@@ -3,32 +3,40 @@
 }
 
 body {
-    background-color: darksalmon;
+    background-color: rgb(13, 189, 212);
 }
 
 body > h1 {
-    color: white;
+    color: black;
 }
 
-.domino-list {
+main {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.domino-list > li {
+main > .domino {
     list-style-type: none;
     font-size: 5rem;
     transition: transform 0.5s;
+    color: rebeccapurple;
+    
+    /* display: none; */
 }
 
-.domino-list > li:hover {
+main > .domino:hover {
     transform: scale(1.5) rotate(0.5turn);
 }
 
-.selected {
-    color: white;
-    filter: drop-shadow(0 0 0.25rem white);
+main > .domino.selected {
+    /* display: block; */
+    
+    color: lightcyan;
+    filter: drop-shadow(0 0 0.25rem lightcyan);
 }
 
 .hidden {
