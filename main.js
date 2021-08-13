@@ -14,6 +14,16 @@ function getRandomNumber (min, max) { // min and max included
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
+// Unicode website: http://xahlee.info/comp/unicode_games_cards.html
+// Dominoes: "🁣 🁤 🁥 🁦 🁧 🁨 🁩 🁪 🁫 🁬 🁭 🁮 🁯 🁰 🁱 🁲 🁳 🁴 🁵 🁶 🁷 🁸 🁹 🁺 🁻 🁼 🁽 🁾 🁿 🂀 🂁 🂂 🂃 🂄 🂅 🂆 🂇 🂈 🂉 🂊 🂋 🂌 🂍 🂎 🂏 🂐 🂑 🂒 🂓"
+// Playing Cards: "🂿 🃟 🂱 🂲 🂳 🂴 🂵 🂶 🂷 🂸 🂹 🂺 🂻 🂽 🂾 🂡 🂢 🂣 🂤 🂥 🂦 🂧 🂨 🂩 🂪 🂫 🂭 🂮 🃁 🃂 🃃 🃄 🃅 🃆 🃇 🃈 🃉 🃊 🃋 🃍 🃎 🃑 🃒 🃓 🃔 🃕 🃖 🃗 🃘 🃙 🃚 🃛 🃝 🃞"
+// Chess: "♚ ♛ ♜ ♝ ♞ ♟ ♔ ♕ ♖ ♗ ♘ ♙"
+// Dice: "⚀ ⚁ ⚂ ⚃ ⚄ ⚅"
+// Mahjong: "🀇 🀈 🀉 🀊 🀋 🀌 🀍 🀎 🀏 🀐 🀑 🀒 🀓 🀔 🀕 🀖 🀗 🀘 🀙 🀚 🀛 🀜 🀝 🀞 🀟 🀠 🀡 🀀 🀁 🀂 🀃 🀢 🀣 🀤 🀥 🀦 🀧 🀨 🀩 🀄 🀅 🀆 🀪 🀫"
+// Clocks: "🕐 🕑 🕒 🕓 🕔 🕕 🕖 🕗 🕘 🕙 🕚 🕛 🕜 🕝 🕞 🕟 🕠 🕡 🕢 🕣 🕤 🕥 🕦 🕧"
+// Flowers: "💮 🌸 🌷 🌹 🌺 🌻 🌼 🥀 🌱 🌽 🌾 🌰 🌿 🍀 🍁 🍂 🍃 🌵 🌴 🎋 🌲 🌳"
+// Weather: "🌣 ☁ 🌤 🌧 🌨 🌩 🌪"
+// Misc. Shapes: "◖ ◗ ⯊ ⯋ ◐ ◑ ◓ ◒ ◜ ◝ ◞ ◟ ◠ ◡ ◧ ◨ ◩ ◪ 🞔 🞕 🞖 ◸ ◹ ◺ ◿ ◤ ◥ ◣ ◢ ⛋ 🞛 🞚 🞜 ⬖ ⬗ ⬘ ⬙"
 let dominoCharacters = "a b c d e f g".replaceAll(" ", "")
 let dominoList = Array.from(dominoCharacters)
 console.log(dominoList)
@@ -39,4 +49,5 @@ for (let index = 0; index < dominoList.length; index += 1) {
     }
 }
 
-// asynchronous programming
+// How animation works: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg2.wikia.nocookie.net%2F__cb20131211182757%2Fanimations%2Fimages%2F6%2F64%2FCheshire-Cat-Mini-Flip-Book.gif&f=1&nofb=1
+// asynchronous programming? We'll learn more about this toward the end of the course!
